@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Gabarito:wght@400..900&display=swap");
+
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: #f9fae8 !important;
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#title{
+    font-family: "Gabarito", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.card{
+    background-color: #f9fae8 !important;
+}
+
+.mb-3 select {
+    letter-spacing: 3px;
+    font-family: "Gabarito", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #fae3dc !important;
+    font-size: large;
+    padding: 1%;
+    padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.mb-3 input {
+  letter-spacing: 3px;
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #fae3dc !important;
+  font-size: large;
+  padding: 1%;
+  padding-left: 20px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+
+#result-text {
+  color: black;
+  font-family: "Gabarito", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#reset{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  background-color: #fc9f9a;
+  border-radius: 50%;
+  padding: 2%;
+}
+
+button {
+    background-color: #ed8e89 !important;
+}
+
+#result-box{
+    border-radius: 7px;
+    background-color: #fae3dc !important; 
+ }
